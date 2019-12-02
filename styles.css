@@ -1,0 +1,133 @@
+body {background: #00001a;}
+
+h1,h2,h4 {color: #ffffff;}
+
+#menubar
+{
+	overflow: hidden;
+    background-color: #232323;
+}
+
+#menubar a 
+{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 14px;
+}
+
+#menubar a:hover
+{
+	background: #ddd;
+  color: black;
+}
+
+
+#imagediv
+{
+	overflow: hidden;
+	width:50%;
+    height: 550px;
+    float: left;
+}
+
+#imagediv img
+{
+	height: 550px;
+	-ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+}
+
+#imageright
+{
+	overflow: hidden;
+    height: 550px;
+    width: 50%;
+    float: right;
+}
+
+#imageright p
+{
+	color: white;
+	text-align: center;
+	line-height: 35px;
+}
+
+#imageright table
+{
+	text-align: justify;
+	color: white;
+	line-height: 35px;
+	margin-left: 40px;
+	border: 1px solid white;
+
+}
+
+#edudetails
+{
+	overflow: hidden;
+    background-color:#190957;
+    height: 600px;
+    width: 100%;
+    margin-top: 600px;
+
+}
+
+#left
+{
+	height: 600px;
+	width: 48%;
+	float: left;
+	text-align: right;
+
+}
+
+#right
+{
+	height: 600px;
+	width: 48%;
+	float: right;
+	text-align: left;	
+}
+#left strong, #right strong
+{
+	color: white;
+	font-size: 22px;
+	font-style: italic;
+}
+
+#left p, #right p
+{
+	color:white;
+	line-height: 25px;
+}
+
+#achievements
+{
+	overflow: hidden;
+    background-color:#00001a;
+    height: 600px;
+    width: 100%;	
+}
+li
+{
+	color: white;
+}
+
+#footer
+{
+	height:200 px;
+	width: 100%;
+	background-color: #ffffff;
+	margin-top: 1px;
+
+}
+
+#footer span
+{
+	float: right;
+}
+
+
